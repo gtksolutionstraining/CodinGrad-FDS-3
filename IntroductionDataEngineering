@@ -1,0 +1,95 @@
+Data --> Unprocessed Raw Data --> 
+    IoT Devices or Edge devices
+Information --> Processed Data 
+    ---> Insights
+
+
+Edge Devices/IoT Devices --> Raw Data --> Data Engineering --> information --> Data Analysis --> Insights --> Data Science/Machine Learning --> Deep Insights/Predictions/Recommendation.
+
+Automated Data Engineering Platform
+    1. AWS
+    2. Azure
+    3. GCP
+    4. IBM
+    5. Onpremise
+
+Data Engineering: Data Engineering pipeline
+    1. Data Ingestion --> Ingestion Tools, Apache Nifi, StreamSets, Kafka, etc
+        1. Streaming
+        2. Batching
+    2. Data Curation/Organization --> Machine Learning 
+    3. Data Unification/Warehousing
+    4. Data Transformation
+    5. Data Fingerprinting/Indexing/Tagging
+    6. Data Lineage
+
+Learning Prerequisites:
+    1. Databases
+    2. SQL
+    3. Python, Scala
+    4. Distributed Computing Systems (Platform)
+        1. Apache Hadoop
+            1. Map Reduce
+        2. Apache Spark
+            1. RDD --> Inmemory Processing
+        3. AWS 
+        4. Azure
+    5. Python --> PySpark, Scala, 
+    6. SQL --> Hive, Impala
+    7. Tools
+    8. APIS --> Python
+
+
+Data Analysis:
+    1. Tools
+        1. Tableu
+        2. PowerBI
+        3. QuickSight
+
+    2. Programmatical
+        1. Python -- APIS
+        2. Spark (Heavy)
+        3. DASK (light)
+            1. DataPrep
+        4. Pandas
+        5. Ydata Profiling
+        6. AutoViz
+        7. Plotly
+
+
+
+Data Science/Machine Learning:
+    1. Frameworks
+        1. Tensorflow
+        2. Keras
+        3. PyTorch
+        4. Numpy
+        5. OpenCV
+
+
+Python Programming Language:
+
+    1. Easy to learn
+    2. Opensource & Larger Community
+    3. Automating Softwares
+    4. Plenty of Modules
+    5. Web Stack
+        1. Flask
+        2. Fast API
+        3. Django
+    6. Data Engineering -- Manual
+    7. Data Engineering -- Automation --> Modules
+    8. Machine Learning Modules
+
+
+
+
+What we will use:
+    1. VSCode
+    2. Jupyter Notebook
+    3. Virtual Environments
+    4. Docker
+
+
+pip install virtualenv
+pip install jupyter
