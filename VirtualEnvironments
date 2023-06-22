@@ -1,0 +1,29 @@
+Every Software project needs an isolated Environments
+
+--> Container => Software & Hardware dependencies
+
+Example:
+    1. Project A --> Python --> Tensorflow  2.4.1  --> Environment ---> (Software modules)
+        --> May get crashed
+    2. Project B --> Python --> Tensorflow  2.7.1
+
+
+
+
+Environment --> Collection of software modules 
+
+
+Environments --> 
+
+    1. Python Virtual Environments
+    2. virtualenv --> package
+    3. pip install virtualenv
+    4. PATH setting for virtualenv
+        1. path from pip3 install virtualenv
+        2. export PATH="<path>:$PATH" --> Ubuntu, Macos, Windows --> GitBash
+
+    5. virtualenv env --> will create an environment
+    6. source env/bin/activate --> Ubuntu, MacOS, GitBash in Windows
+       source env\Scripts\activate.bat --> CMD in Windows
+
+    7. requirements.txt
