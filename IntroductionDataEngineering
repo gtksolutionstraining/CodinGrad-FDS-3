@@ -102,3 +102,19 @@ Tasks:
     4. Class Notes cloning
     5. Python 3.9.11
     6. run above commands
+
+
+Python: 
+
+    1. Interpreted Language
+    2. Python Kernel --> Specific to environment
+    3. Jupyter Notebook
+        1. New Notebook
+            1. Python Kernel will be established
+            2. Running Session between user and Hardware (CPU & Memory)
+
+
+GITHUB:
+
+    1. git pull origin main
+    2. git stash

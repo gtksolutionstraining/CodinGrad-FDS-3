@@ -1,0 +1,56 @@
+Jupyter Notebook --> Experimenting Python
+VSCode/Python Scripts --> Projects
+
+
+Python Data Types:
+
+
+    1 Byte = 8bits
+
+        1bit --> 0/1
+        possible values can be stored in 1bit = two 
+
+        8bit -->
+        possible values can be stored in 8bit = 2.2.2.2.2.2.2.2 = 256
+
+    Data Structuring 
+        1. Managing storage efficiently
+
+        Age = [0.1, 120] --> float --> 64bit -> 8Bytes
+
+            Age --> 37 * 8
+
+        Age = [0,1,..120] --> int --> 32bit -> 4Bytes
+
+            Age --> 37 * 4
+
+        1. Basic Data Types
+            1. Character -- 1bit  
+                1. plain characters 1Byte --> 8bits --> 256 
+                2. Boolean characters 1bit --> True / False --> 0/1
+            2. Integer 32bit
+            3. float 64bit
+            4. Double >64bit
+            5. String --> collection of characters
+
+        2. Advanced Data Types
+
+
+Python is an implicit type casting
+
+Variable: --> A name when its been assigned by any valid value
+Type: --> type() is a python function which tells you about the data type of the variable
+Explicit Type Casting --> Converting or casting data type of the variable explicitly
+
+
+Strings:
+    1. '' value assigning
+    2. "" value assigning
+    3. '''''' value assigning
+    4. escape character --> \
+        --> When you add \ in a string. the character which is just next to \ will be ignored
+
+
+Literals --> value
+    1. string Literals
+    2. integer literals
