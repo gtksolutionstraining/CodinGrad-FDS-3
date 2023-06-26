@@ -1,0 +1,61 @@
+1. What is Data Structuring?
+2. What are Data Struvtures?
+    1. Basic Data Types
+    2. Data Collections
+        Maps
+        Vectors
+    3. Advanced Data Structures
+        1. Arrays
+        2. Stacks
+        3. Queues
+        4. Linkedlists
+        5. Single and Double Linkedlists
+        6. Trees
+        7. Graphs
+
+3. Compilers, Interpreter and Hybrid
+
+    Binary Language 
+
+    Code --> Binary Language
+
+    Compilers
+        Code --> Synatictical Parser --> Semantical parser --> Linker --> Intermediate Code Gneration --> Optimzaiation --> Assembly code Conveter --> Binary Code
+
+        Whole code will be compiled at once
+
+        You will an executable file --> binary file --> file.out
+
+        ---> CPU - Instructions Set ---> Machine Specific
+
+        --> Examples: C and CPP 
+        ---> Platform Dependent & Machine Dependent
+
+    Interpreter
+        Code --> Syntactical Parser --> Semantical Parser --> Linked --> Intermediate Code Generator --> Optimization --> Assembly code Converter --> Binary Code
+
+        Code File --> Step By Step execution
+
+
+        Total Execution Time  = Compilation Time/ Interpretaion Time + Execution Time
+
+             Compiler         --> 10s + 10s
+             Interpreter      --> ~10s + >>10S
+
+        Python is also an platform interpreted 
+
+    Hybrid
+
+        Example: Java
+
+        Java Code will be converted to ByteCode -- (Intermediate Code) for whole code
+
+        Intermediate Code will executed like interpretation for line by line --> JVM
+
+        ---> Instruction Set of the CPU is not needed. This will be taken care by JVM
+
+        Platform Independent
+
+
+
+

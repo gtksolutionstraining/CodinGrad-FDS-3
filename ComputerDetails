@@ -8,5 +8,3 @@ Program --> Memory --> CPU
      CPU Input --> Bit ---> 32/64 bit computer
 
      Clock Speed --> 2.4Ghz --> 2.4 * 2^30 number of signals will be generated per second 
-
-
