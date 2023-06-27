@@ -1,0 +1,82 @@
+Computer --> Hardware and Software
+
+Hardware --> CPU, Memory, Disk, GPU -> Graphical Processing Unit
+
+
+Operating System --> Kernel
+
+
+---> Unix --> MacOS, Windows and Linux
+
+
+Application
+
+Users input
+
+
+Low Level --> Hardware
+High Level --> Application
+
+Operating System acts as an intermediate for low level and high level components
+
+Actual Linux --> Windows
+    1. WSL -- Windows Subsystem for Linux
+    2. Ubuntu
+
+Applications:
+    Examples: VSCode, Terminal, Photos, Camera, Video player, Adobe Photoshop, 
+            1. GUI --> Graphical User Interface, VSCode, Jupyter Notebook
+            2. Non GUI ---> Terminal, Python, Git, Java, GCC (Gnu C Compiler)
+
+
+Terminal:
+    Will directly connect to OS(Windows, MacOS, Linux)
+
+    Windows --> Command Prompt, Powershell, Git Bash, Ubuntu
+        1. path
+            will be different in Windows --> backward slash "\"
+    MacOS --> Terminal
+    Linux --> Terminal
+
+    Desktop Name --> Server Name
+
+    user@server - $ 
+    root@server - #
+
+    user will have minimal permissions
+    root will have all permissions --> sudo permission
+
+    user --> username and password
+    root --> root and root password
+
+    Disk - Secondary Storage - Hard disk - SSD
+        -> To store information
+    
+    File System: Its a software which will be used for communicating Storage
+        1. NTFS
+        2. FT32
+        3. extFilesystem
+
+    Windows File System
+        C --> Drive
+            --> It will hold OS files, Applications
+            --> Program Files, Program Files(x86), Users, Windows
+            --> Windows --> Root / Admin / OS folder
+            --> C:\Windows
+            --> Program Files --> It holds Application files 
+                --> x86 --> 32bit
+                --> 64bit
+            --> Users
+                --> Proper Usernames for your laptops
+                --> Avoid space for usernames, for folder names, small letters
+                --> username can PavanKommaddi, JahnaviKandra, pavank
+                --> C:\Users\rameshg --> Home folder
+
+            Assignment --> GitBash
+                --> C:\Users\Program Files\python\3.9\site-packages
+                --> export PATH="<PATH>:$PATH"
+
+Standalone Machine --> Specific to 1 person
+Shared Machine --> Shared Machines 
+
+
