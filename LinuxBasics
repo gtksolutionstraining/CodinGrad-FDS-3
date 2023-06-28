@@ -75,6 +75,63 @@ Terminal:
             Assignment --> GitBash
                 --> C:\Users\Program Files\python\3.9\site-packages
                 --> export PATH="<PATH>:$PATH"
+            Filenames or Foldernames should be written Camel Case or Snake Case
+
+            Normal: Tharun Kumar
+            Camal Case: TharunKumar
+            Snake Case: Tharun_Kumar 
+
+        To Know the present working directory in terminal -> pwd
+
+        Every Computer will have environment variables
+        --> Environment variables will be accessed by all applications
+            1. HOME
+            2. PATH
+                1. If you find anything is not found from terminal --> meaning that its not available in PATH
+                2. You have to add binary files of the application to the PATH
+                    1. Environment Variables --> System variables --> Path --> Paste the binary files path
+                    2. export PATH="<PATH>:$PATH" --> GitBash
+            3. PYTHONPATH
+            4. JAVAPATH
+
+        HOME:
+            Linux: /home/<username>
+            MacOS: /Users/<username>
+
+            / --> Starting point of the linux filesystem
+            /home --> holds all the users
+            /lib --> holds all libraries that are required by Linux OS
+            /usr --> holds all information about the libraries used by user
+            /bin --> holds all binary files which are usefull for running Linux OS
+            /usr/lib
+            /usr/bin
+
+        Commands:
+            1. mkdir --> make directory --> Is used to create a folder
+            Example: mkdir CodinGrad
+            2. ls --> listing files and folders in the present working directory
+            3. cd --> Chanage Directory --> Is used to change your current directory
+            Example: cd CodinGrad
+             ---> HOME_FOLDER/CodinGrad
+            4. echo --> Print
+            5. rm -r <directory_name> --> Remove all the files recursively from the givene directory
+            6. cd ..
+            File ---> Filename.
+            File Extensions -->
+                1. txt --> Textfile
+                2. py --> Python File --> Python code
+                3. c/cpp/java/cs/js
+
+            7. touch requirements.txt
+            --> touch command will create an empty file
+            8. vim -- editor
+            --> vi requirements.txt
+            --> to open insert mode click on 'I'
+            --> Write something
+            --> click esc
+            --> type :wq and enter
+            9. rm requirements.txt
+            10. cat command is used to show the contents of the existing file
 
 Standalone Machine --> Specific to 1 person
 Shared Machine --> Shared Machines 

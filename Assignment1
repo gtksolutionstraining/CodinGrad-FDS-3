@@ -1,0 +1,27 @@
+1. Explore and understand about export PATH command
+2. Write biodata in text file using vim and using terminal
+3. Create folder org
+    MVSR
+        Administration
+            FEECOUNTER
+                feecounter.txt
+            EXAMCOUNTER
+                examcounter.txt
+        Labs
+            CLAB
+                clab.txt
+            CPPLAB
+                cpplab.txt
+            PYTHONLAB
+                pythonlab.txt
+        Academics
+            CSE
+                cse.txt
+            CIVIL
+                civil.txt
+            MECH
+                mech.txt
+            ECE
+                ece.txt
+            EEE
+                eee.txt
