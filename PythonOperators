@@ -1,0 +1,30 @@
+Programming Paradigms (Types)
+    1. Functional Programming
+    2. Object Oriented Programming
+    3. Declerative Programming
+    4. Imperative Programming
+
+Typical Python Program
+
+def function1():
+    -----
+    logic
+    -----
+def function2():
+    -----
+    logic
+    -----
+def function3():
+    -----
+    logic
+    -----
+.... 
+
+statement1 6+7
+statement2 a = 8*8
+statement3
+function1()
+
+....
+
+In an above program when the execution of the programm will be started --> statement1

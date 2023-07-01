@@ -132,8 +132,26 @@ Terminal:
             --> type :wq and enter
             9. rm requirements.txt
             10. cat command is used to show the contents of the existing file
-
+            11. ~ = $HOME
+            12. cd ~
+            13. cd $HOME
+            14. source --> command
+            15. Linux Scripting Languages
+            16. Bash Scripting, CSH
+            17. Windows Scripting Languages 
+            18. psh, bat
+            19. source command is to run shell scrits
+            
 Standalone Machine --> Specific to 1 person
 Shared Machine --> Shared Machines 
 
 
+export PYTHONPATH="/c/Users/Jahnavi Kandra/AppData/Local/Programs/Python/Python39"
+
+echo $PYTHONPATH
+
+cd $PYTHONPATH
+
+pwd
+
+export PYTHONPATH="/c/Users/Jahnavi\ Kandra/AppData/Local/Programs/Python/Python39"
