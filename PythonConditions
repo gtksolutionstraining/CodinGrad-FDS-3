@@ -1,0 +1,19 @@
+Finding given number is even or odd..
+
+
+Pseudo Code:
+
+Lets x is a number
+
+if x is divisable by 2 then x is even
+else x is odd
+
+
+Program:
+
+if <condition>:
+    <statement1>
+    <statement2>
+else:
+    <statement1>
+    <statement2>

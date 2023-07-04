@@ -28,3 +28,25 @@ function1()
 ....
 
 In an above program when the execution of the programm will be started --> statement1
+
+Any mathematical statement LHS = RHS
+
+You have to compute RHS and assign it to LHS
+
+
++, -, *, /
+
+Binary Operators --> Operator will be applicable for 2 values
+
+two numbers
+
+integer + integer = integer
+integer - integer = integer
+integer * integer = integer
+integer / integer = float
+
+float (.) float = float
+
+float (.) integer = float
+
+integer (.) float = float
