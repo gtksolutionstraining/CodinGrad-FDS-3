@@ -1,0 +1,16 @@
+List = Sequence of values
+String = Sequence of characters
+
+values --> Numbers, strings and objects
+
+Definition = Instantiation, Decleration
+
+Decleration --> Python Dont have
+Python only have Definition or Instantiation
+
+Definition/Instantiation : You assign a value to the variable
+
+Definition --> Variables --> int, string float
+Instantiation --> Collections, Class Objects --> assigning initial value
+
+Declaration --> Declaring a variable but not defining and define later
