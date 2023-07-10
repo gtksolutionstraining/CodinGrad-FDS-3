@@ -1,0 +1,35 @@
+
+
+for loop --> 5 iterations
+
+1st iteration:
+    --> i = 0
+    --> students[0] == "A"
+    --> is A == E 
+    --> Student E not found!
+    
+2nd iteration:
+    --> i = 1
+    --> students[1] == "B"
+    --> is B == E
+    --> Student E not found!
+
+---
+
+5th iteration:
+    --> i = 4
+    --> students[4] == "E"
+    --> is E == E
+    --> Student E found at 5th position
+
+
+# total length of list = n 
+# what is worst case time complexity (Linear search) ==> o(n)
+# For loop can be break
+
+# What if an element not found in the whole list
+
+--> n number of iterations
+
+# Computational steps
+
