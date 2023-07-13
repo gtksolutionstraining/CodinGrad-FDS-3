@@ -1,0 +1,11 @@
+1. Python Programming Language doesn't have any main function
+2. What is main function?
+3. A main function is starting point for the the process or software to start the execution
+4. C, CPP, Java languages will have dedicated main functions
+5. In python we dont have any such function so that we will be having the code block 
+6. Every python file is a module --> __name__ == '__main__'
+7. main function in python should not have business logic
+
+
+
+--> Abstraction: Hiding Implementation details
