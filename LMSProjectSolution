@@ -1,0 +1,18 @@
+Design the Solution:
+==> Programming pardigms
+
+Code design --> should be scalable and maintanable, easy understood, well documented, Open For extension and closed for modification and developer friendly.
+
+1. Functional Programming
+--> Software should be breaked into functional modules --> Functions
+--> Advantages:Very Easy, Developer friendly,  Easily understood, Maintainable
+--> Disadvantages: Cannot be scaled.
+--> Is mostly used in React --> Frontend
+2. Declerative Programming
+--> is mostly used in Terrarform, AWS CDK --> DevOps 
+--> you declare the work then programming language will execute in order
+3. Object Oriented Programming --> OOPS
+--> Software should be breaked into objects --> Data
+--> Advantages: It is scalable, Open for extension and closed for modification
+--> Disadvantage:  Designing solution, Maintainance, Hard to implement, hard understanding
+--> Is mostly used in Python, Django, Tensorflow, --> Backend

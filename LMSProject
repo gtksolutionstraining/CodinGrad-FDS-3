@@ -1,0 +1,44 @@
+LMS --> Library Management System
+
+Problem Statement: To manage books and users in a library environment is hectic in manual.
+
+Investor will invest certain amount 20Cr on the Project 
+
+X software solutions
+---> CEO
+---> CTO 
+---> Manager
+    ---> Team Lead/Solution Architect
+    ---> Developers
+
+
+Proposed Solution:
+ --> Programming Language= Python
+ --> Django Framkerwork for backend
+ --> Mongo DB for database
+ --> React for UI 
+ --> DevOps for deploying and maintaining servers
+
+Requirement Gathering
+-> resource requirement
+    -> Manforce
+    -> Computers
+-> Software requirements
+    -> Technical Stack
+    -> Data requirements
+
+Architecting or Designing Software Solution
+    --> System Designing
+    --> Design Patterns
+    --> Code Design
+    --> Database Schema Design
+
+Devlopment:
+    --> Develop the software based on requirements
+    --> Front end and backend developers
+
+Deployment:
+    --> Deploy in servers to make it accessible for the users
+
+Monitoring:
+    --> Monitoring erros  or crash
