@@ -16,3 +16,12 @@ Code design --> should be scalable and maintanable, easy understood, well docume
 --> Advantages: It is scalable, Open for extension and closed for modification
 --> Disadvantage:  Designing solution, Maintainance, Hard to implement, hard understanding
 --> Is mostly used in Python, Django, Tensorflow, --> Backend
+
+Database Design --> Ontology
+--> Schema of your database
+--> Tables or Collections --> Schema --> Database 
+--> UML Diagrams
+--> Database Developers, Admins, NoSQL Database Developers
+--> SQL, Python
+
+Dictionaories and Files
