@@ -1,0 +1,31 @@
+UnitTesting --> Test the code with test cases
+LMS --> check_authentication --> Test cases
+    1. Success Test cases
+        1. user, password ==> THARUN, Tharun123
+        2. user, password ==> PRAKASH. Prakash123
+    2. Unsuccessful Test cases
+        1. user, password ==> THARUN, Tharun1234
+
+
+you can reorganize the code and maintain the quality
+
+Code Coverage --> How much the code lines covered while testing
+
+only one test case --> 6/16 ==> 37% (THARUN, Tharun123)
+test case 2 (PRAKAS,Prakash123) ==> 37%
+
+testcase 3 --> Tharun, Tharun1234 with correct password in 2 iteration ===> 95
+
+testcase 3 --> Tharun, Tharun1234 --> 2 chances --> wrong password == 100%
+
+
+
+THRESHOLD --> 90%
+
+
+Mock Testing --> Mocking 3rd Party Libraries
+
+example: --> AWS librariies
+
+--> To Test AWS involved code we need AWS accountID, Secret Key and it involves cost
+--> We will take a mocking library which mocks or acts like AWS so that we can feel the testing

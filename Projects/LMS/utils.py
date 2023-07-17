@@ -38,22 +38,35 @@ def check_authentication(user,password):
                         return True
                 print("You have entered 3 wrong passwords")
                 return False
-        else:
-            print("Entered user not found!, Please Try again.")
-            for i in range(2):
-                user,password = take_user_password()
-                if admin['USER_NAME'] == user and admin['PASSWORD'] == password:
-                    print("Authentication successfull!")
-                    return True
-            print("Chances Exhausted!")
-            return False
+    print("Username and Password are invalid!")
+    return False
 
 def display_admin_menu():
     print("ADMIN MENU:\n")
     print("1. ADD STUDENT")
     print("2. ADD TEACHER")
-    print("3. ADD BOOk")
+    print("3. ADD BOOK")
     print("4. Logout")
+
+def display_year():
+    print("YEARS")
+    print("1st Year")
+    print("2nd Year")
+    print("3rd Year")
+    print("4th Year")
+
+def display_dept():
+    print("DEPTS:")
+    print("1. CSE")
+    print("2. CIVIL")
+    print("3. MECH")
+    print("4. EEE")
+    print("5. ECE")
+
+def display_sem():
+    print("SEMESTERS:")
+    print("1ST SEM")
+    print("2ND SEM")
 
 def lms_entry():
     status = True
@@ -76,7 +89,35 @@ def lms_entry():
                     teacher_id = input("Enter teacher ID")
                     LMS['TEACHERS'][teacher_name] = teacher_id
                 elif admin_choice == 3:
-                    print("Coming soon!")
+                    book_name = input("Enter Book Name: ")
+                    book_id = input("Enter Book ID: ")
+                    display_dept()
+                    dept_choice = take_input()
+                    if dept_choice == 1:
+                        display_year()
+                        year_choice = take_input()
+                        if year_choice == 1:
+                            display_sem()
+                            sem_choice = take_input()
+                            if sem_choice == 1:
+                                LMS["BOOKS"]["CSE"]['1ST_YR']['1ST_SEM'].append({"BOOK_NAME":book_name,"BOOK_ID":book_id})
+                                print(f"BOOK {book_name} and Book ID {book_id} is added to CSE 1st Year 1st Sem")
+                            elif sem_choice == 2:
+                                LMS["BOOKS"]["CSE"]['1ST_YR']['2ND_SEM'].append({"BOOK_NAME":book_name,"BOOK_ID":book_id})
+                                print(f"BOOK {book_name} and Book ID {book_id} is addedd to CSE 1st Year 2nd Sem")
+                            else:
+                                print("Please enter proper 1/2")
+                        elif year_choice == 2:
+                            display_sem()
+                            sem_choice = take_input()
+                            if sem_choice == 1:
+                                LMS["BOOKS"]["CSE"]['2ND_YR']['1ST_SEM'].append({"BOOK_NAME":book_name,"BOOK_ID":book_id})
+                                print(f"BOOK {book_name} and Book ID {book_id} is added to CSE 2nd Year 1st Sem")
+                            elif sem_choice == 2:
+                                LMS["BOOKS"]["CSE"]['2ND_YR']['2ND_SEM'].append({"BOOK_NAME":book_name,"BOOK_ID":book_id})
+                                print(f"BOOK {book_name} and Book ID {book_id} is addedd to CSE 2nd Year 2nd Sem")
+                            else:
+                                print("Please enter proper 1/2")
                 elif admin_choice == 4:
                     print("Logging Out.")
                     flag = False
