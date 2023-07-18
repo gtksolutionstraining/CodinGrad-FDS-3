@@ -1,4 +1,4 @@
-from utils import lms_entry
+from utils.lms_utils import lms_entry
 def main():
     lms_entry()
 if __name__ == "__main__":
