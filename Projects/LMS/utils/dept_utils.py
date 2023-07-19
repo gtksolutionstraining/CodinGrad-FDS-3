@@ -4,6 +4,17 @@ from utils.year_sem_utils import (
 )
 from utils.display_utils import display_dept
 from utils.input_utils import take_input
+from config import DEPT
+
+def get_dept():
+    flag = True
+    while flag:
+        display_dept()
+        dept_choice = take_input()
+        if dept_choice in [1,2,3,4,5,6]:
+            return DEPT[dept_choice]
+        else:
+            print("Please select 1,2,3,4,5")
 
 def get_dept_choice():
     flag = True

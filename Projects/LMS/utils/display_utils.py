@@ -1,5 +1,5 @@
 def display_menu():
-    print("\nLMS MENU\n:")
+    print("\nLMS MENU:\n")
     print("1. ADMIN")
     print("2. STUDENT")
     print("3. TEACHER")
@@ -10,6 +10,13 @@ def display_admin_menu():
     print("1. ADD STUDENT")
     print("2. ADD TEACHER")
     print("3. ADD BOOK")
+    print("4. Logout")
+
+def display_student_menu():
+    print("STUDENT MENU:\n")
+    print("1. LIST BOOKS")
+    print("2. GET BOOKS")
+    print("3. RETURN BOOKS")
     print("4. Logout")
 
 def display_year():

@@ -2,9 +2,19 @@ from utils.display_utils import (
     display_sem,
     display_year
 )
-from config import LMS
+from config import LMS,YEAR,SEM
 
 from utils.input_utils import take_input
+def get_year():
+    flag = True
+    while flag:
+        display_year()
+        year_choice = take_input()
+        if year_choice in [1,2,3,4]:
+            return YEAR[year_choice]
+        else:
+            print("Please select 1,2,3,4")
+
 def get_year_choice():
     flag = True
     while flag:
@@ -14,6 +24,16 @@ def get_year_choice():
             return year_choice
         else:
             print("Please select 1,2,3,4")
+
+def get_sem():
+    flag = True
+    while flag:
+        display_sem()
+        sem_choice = take_input()
+        if sem_choice in [1,2]:
+            return SEM[sem_choice]
+        else:
+            print("Please select 1,2")
 
 def get_sem_choice():
     flag = True
