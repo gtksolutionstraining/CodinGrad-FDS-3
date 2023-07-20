@@ -3,9 +3,8 @@ from utils.input_utils import take_input
 from utils.student_utils import add_student
 from utils.teachers_utils import add_teacher
 from utils.book_utils import add_book
-from config import LMS
 
-def check_authentication(user,password):
+def check_authentication(LMS,user,password):
     admins = LMS['LIB_ADMINS']
     for admin in admins:
         if admin['USER_NAME'] == user:
@@ -25,16 +24,16 @@ def check_authentication(user,password):
     print("Username and Password are invalid!")
     return False
 
-def admin_entry(flag):
+def admin_entry(LMS,flag):
     while flag:
         display_admin_menu()
         admin_choice = take_input()
         if admin_choice == 1:
-            add_student()
+            add_student(LMS)
         elif admin_choice == 2:
-            add_teacher()
+            add_teacher(LMS)
         elif admin_choice == 3:
-            add_book()
+            add_book(LMS)
         elif admin_choice == 4:
             flag = False
             print("Logging Out..!")

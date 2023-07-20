@@ -26,13 +26,13 @@ def get_dept_choice():
         else:
             print("Please select 1,2,3,4,5")
 
-def add_in_dept(dept,book_name,book_id):
+def add_in_dept(LMS,dept,book_name,book_id):
     year_choice = get_year_choice()
     if year_choice == 1:
-        add_in_yr(dept,"1ST_YEAR",book_name,book_id)
+        add_in_yr(LMS,dept,"1ST_YEAR",book_name,book_id)
     elif year_choice == 2:
-        add_in_yr(dept,"2ND_YEAR",book_name,book_id)
+        add_in_yr(LMS,dept,"2ND_YEAR",book_name,book_id)
     elif year_choice == 3:
-        add_in_yr(dept,"3RD_YEAR",book_name,book_id)
+        add_in_yr(LMS,dept,"3RD_YEAR",book_name,book_id)
     elif year_choice == 4:
-        add_in_yr(dept,"4TH_YEAR",book_name,book_id)
+        add_in_yr(LMS,dept,"4TH_YEAR",book_name,book_id)

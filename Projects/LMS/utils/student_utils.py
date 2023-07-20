@@ -1,4 +1,4 @@
-from config import LMS,DEPT
+from config import DEPT
 from utils.display_utils import(
     display_student_menu,
 )
@@ -15,12 +15,12 @@ from utils.year_sem_utils import(
 from utils.book_utils import(
     list_books,get_books,return_book
 )
-def add_student():
+def add_student(LMS):
     name = input("Enter Student name")
     roll_number = input("Enter Roll Number")
     LMS['STUDENTS'][name] = roll_number
 
-def is_student_exists(name, roll_number):
+def is_student_exists(LMS,name, roll_number):
     for student_name in LMS['STUDENTS'].keys():
         if student_name == name:
             if LMS['STUDENTS'][student_name] == roll_number:
@@ -36,19 +36,19 @@ def get_student_info():
     sem = get_sem()
     return dept,year,sem
 
-def student_entry():
+def student_entry(LMS):
     flag = True
     while flag:
         display_student_menu()
         student_choice = take_input()
         if student_choice == 1:
             dept,year,sem = get_student_info()
-            list_books(dept,year,sem)
+            list_books(LMS,dept,year,sem)
         elif student_choice == 2:
             dept,year,sem = get_student_info()
-            get_books(dept,year,sem)
+            get_books(LMS,dept,year,sem)
         elif student_choice == 3:
-            return_book()
+            return_book(LMS)
         elif student_choice == 4:
             print("Logging Out!")
             flag = False

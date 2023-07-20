@@ -1,0 +1,5 @@
+Data Buffer : The data that ur using or ur genereting using the python software that you want make it persistent, then data is called data buffer
+ --> Always resides in the RAM
+ --> Once the software closed then the data buffer will be removed from the RAM
+ --> By using FileManagement we can store the data buffer in disks so that our data generated or processed in software execution will be persistent
+
