@@ -37,3 +37,5 @@ def admin_entry(LMS,flag):
         elif admin_choice == 4:
             flag = False
             print("Logging Out..!")
+        else:
+            print("Please enter 1/2/3/4")

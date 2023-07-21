@@ -11,7 +11,7 @@ def get_dept():
     while flag:
         display_dept()
         dept_choice = take_input()
-        if dept_choice in [1,2,3,4,5,6]:
+        if dept_choice in [1,2,3,4,5]:
             return DEPT[dept_choice]
         else:
             print("Please select 1,2,3,4,5")

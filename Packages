@@ -1,0 +1,22 @@
+1. Inbuilt Packages
+--> json, os, math
+2. Custom Packages
+--> Utils
+3. 3rd Party packages
+--> pandas, numpy, tensorflow, scikit-learn
+--> pip is a software which will install 3rd Party Python packages
+--> pip install pandas
+--> pip install -r requirements.txt
+
+
+=== FUnctions ===
+
+1. return --> Python keyword which is used to return from the function
+2. sys.exit(0) --> Function in System Library which is used to to return from the whole software
+3. Incremental, Decremental Operations 
+    i++ Efficient operation
+    i--
+    ++i
+    --i
+
+    i = i+1

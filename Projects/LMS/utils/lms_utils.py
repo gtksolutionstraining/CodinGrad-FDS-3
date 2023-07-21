@@ -21,6 +21,7 @@ def lms_entry():
     print("\nEntering into LMS...!\n")
     file = open("assets/LMS.json","r")
     LMS = json.load(file)
+    file.close()
     status = True
     while status:
         print("================")

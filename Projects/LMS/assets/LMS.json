@@ -1,1 +1,133 @@
-{"STUDENTS": {"Raju": "123", "Ramesh": "124", "Rani": "125"}, "BOOKS": {"CSE": {"1ST_YEAR": {"1ST_SEM": [{"BOOK_NAME": "Matrices", "BOOK_ID": "126"}], "2ND_SEM": [{"BOOK_NAME": "CPP", "BOOK_ID": "123"}, {"BOOK_NAME": "CPP", "BOOK_ID": "124"}, {"BOOK_NAME": "Data Structures", "BOOK_ID": "125"}]}, "2ND_YEAR": {"1ST_SEM": [{"BOOK_NAME": "Statistics", "BOOK_ID": "127"}], "2ND_SEM": []}, "3RD_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "4TH_YEAR": {"1ST_SEM": [], "2ND_SEM": []}}, "ECE": {"1ST_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "2ND_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "3RD_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "4TH_YEAR": {"1ST_SEM": [], "2ND_SEM": []}}, "EEE": {"1ST_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "2ND_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "3RD_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "4TH_YEAR": {"1ST_SEM": [], "2ND_SEM": []}}, "CIVIL": {"1ST_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "2ND_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "3RD_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "4TH_YEAR": {"1ST_SEM": [], "2ND_SEM": []}}, "MECH": {"1ST_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "2ND_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "3RD_YEAR": {"1ST_SEM": [], "2ND_SEM": []}, "4TH_YEAR": {"1ST_SEM": [], "2ND_SEM": []}}}, "TEACHERS": {}, "LIB_ADMINS": [{"USER_NAME": "THARUN", "PASSWORD": "Tharun123"}, {"USER_NAME": "PRAKASH", "PASSWORD": "Prakash123"}]}
+{
+    "STUDENTS": {
+        "Raju": "123",
+        "Ramesh": "124",
+        "Rani": "125"
+    },
+    "BOOKS": {
+        "CSE": {
+            "1ST_YEAR": {
+                "1ST_SEM": [
+                    {
+                        "BOOK_NAME": "Matrices",
+                        "BOOK_ID": "126"
+                    }
+                ],
+                "2ND_SEM": [
+                    {
+                        "BOOK_NAME": "CPP",
+                        "BOOK_ID": "123"
+                    },
+                    {
+                        "BOOK_NAME": "CPP",
+                        "BOOK_ID": "124"
+                    },
+                    {
+                        "BOOK_NAME": "Data Structures",
+                        "BOOK_ID": "125"
+                    }
+                ]
+            },
+            "2ND_YEAR": {
+                "1ST_SEM": [
+                    {
+                        "BOOK_NAME": "Statistics",
+                        "BOOK_ID": "127"
+                    }
+                ],
+                "2ND_SEM": []
+            },
+            "3RD_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "4TH_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            }
+        },
+        "ECE": {
+            "1ST_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "2ND_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "3RD_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "4TH_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            }
+        },
+        "EEE": {
+            "1ST_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "2ND_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "3RD_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "4TH_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            }
+        },
+        "CIVIL": {
+            "1ST_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "2ND_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "3RD_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "4TH_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            }
+        },
+        "MECH": {
+            "1ST_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "2ND_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "3RD_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            },
+            "4TH_YEAR": {
+                "1ST_SEM": [],
+                "2ND_SEM": []
+            }
+        }
+    },
+    "TEACHERS": {},
+    "LIB_ADMINS": [
+        {
+            "USER_NAME": "THARUN",
+            "PASSWORD": "Tharun1234"
+        },
+        {
+            "USER_NAME": "PRAKASH",
+            "PASSWORD": "Prakash123"
+        }
+    ]
+}

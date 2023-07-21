@@ -20,18 +20,21 @@ def list_books(LMS,dept,year,sem):
     books = LMS['BOOKS'][dept][year][sem]
     if len(books) == 0:
         print("No Books added please visit after sometime.")
-        return
+        return False
     print("LISTING BOOKS")
     i = 1
     for book in books:
         print(f"{i}.BOOK_NAME: {book['BOOK_NAME']}, BOOK_ID: {book['BOOK_ID']}")
-        i = i+1
+        i = i+1 #Incremental Operation
+    return True
 
 def get_books(LMS,dept,year,sem):
     books = LMS['BOOKS'][dept][year][sem]
     flag = True
     while flag:
-        list_books(dept,year,sem)
+        books_status =list_books(LMS,dept,year,sem)
+        if not books_status:
+            return
         book_choice = take_input()
         if book_choice in list(range(1,len(books)+1)):
             print("Take your book")

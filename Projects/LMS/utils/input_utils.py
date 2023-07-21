@@ -3,10 +3,9 @@ def take_input():
     while status:
         try:
             choice = int(input("\nPlease enter your choice: "))
-            status = False
             return choice
         except Exception as e:
-            print("Please enter digits only...")
+            print("You have entered wrong input, Please enter integers only...")
     
 def take_user_password():
     user = input("Please enter your user ID: ")
