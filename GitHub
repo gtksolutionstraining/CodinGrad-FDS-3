@@ -1,0 +1,36 @@
+Repository: Its a Project
+Public Repositories and Private Repositories, Open Source Repositories
+Every Repository will have Licensing MIT License, Apacahe License, No License
+
+--> Public is accessible for everyone
+--> Private can have limited accessible
+--> Open Source is a public Repository but its a renowned project
+    --> Linux --> Contributors are also public
+    --> Watchers are also public -- readonly 
+    --> if Watchers want to use your code in any ways then 
+
+--> Watchers can clone the code and update the code based on their requirements
+--> Before using the cloned project for commercial purposes then u have to take an agreement or legal consent from the authors of the projects if the projects license has the rule
+
+Stars --> Subscription, Bookmarking
+
+
+
+Version Control System (VCS) --> BitBucket, GitLab
+
+--> Branches & Forks
+
+---> Same Repository can have multiple branches
+---> Individual developer will do branching to keep his code versioned
+    ---> main -- branch --> Minimum Viable Product -(MVP) v0-> v
+    ---> clone -- dev --> Feature ehancement or code updated or commenting code  and test
+    ---> branch names ==> main, dev, stage, qa, prod
+    ---> dev --> main merge code ---> Branch merging
+
+
+
+---> Forking is to handle multiple developers for single main repository
+---> Multiple developers 
+---> LMS  releasable project 
+    ---> Main Repositiroy --> main, dev, stage, qa, prod
+    ---> All developers should fork the project and develop individually and merge in the main repositor

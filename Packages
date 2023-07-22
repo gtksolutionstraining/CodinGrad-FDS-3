@@ -20,3 +20,9 @@
     --i
 
     i = i+1
+
+4. range() is python inbuilt function, which will take starting index and ending position.
+5. range(0,5) = 0,1,2,3,4
+6. range() returns different data type called range data type = [0,1,2,3,4]
+7. list(range(0,5))
+8. range(5) --> starting index is 0 by default
