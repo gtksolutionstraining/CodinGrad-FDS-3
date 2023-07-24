@@ -8,14 +8,20 @@ Code design --> should be scalable and maintanable, easy understood, well docume
 --> Advantages:Very Easy, Developer friendly,  Easily understood, Maintainable
 --> Disadvantages: Cannot be scaled.
 --> Is mostly used in React --> Frontend
+
 2. Declerative Programming
 --> is mostly used in Terrarform, AWS CDK --> DevOps 
 --> you declare the work then programming language will execute in order
-3. Object Oriented Programming --> OOPS
+
+3. Object Oriented Programming --> OOPS (Basics and Advanced)
 --> Software should be breaked into objects --> Data
 --> Advantages: It is scalable, Open for extension and closed for modification
 --> Disadvantage:  Designing solution, Maintainance, Hard to implement, hard understanding
 --> Is mostly used in Python, Django, Tensorflow, --> Backend
+
+4. Low Level Design or Design Patterns with OOPs & High Level System Design
+
+5. Data Structuring & Algorithms  --- Time Complexity & Space Complexity
 
 Database Design --> Ontology
 --> Schema of your database

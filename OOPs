@@ -1,0 +1,35 @@
+OOP: Object Oriented Programming
+
+---> Its programming style which will make your software more scalable,maintainable, extendable, operatable, organized, memory efficient.
+---> It can also be used to design few well known pattern followed by many industrial projects.
+
+OOPs: Its programming style works around the Objects instead functions as in Functional Programming Style.
+
+Object: An object is a real world entity
+
+Class: A description of related entites which have certain actions and certain properties.
+
+Class: A blueprint or logical entity
+Object: An instance of class or physical entity
+
+Parrot --> Class --> Description of what is parrot, what a parrot will have, what a parrot will do 
+Parrot --> Example --> Physical entity
+
+Class: Its a collection of actions and properties
+
+
+----> Actions ==> Member Methods / Member Functions
+----> Properties ==> Attributes / Feature / Variables
+
+
+Class is a collection of member functions and member variables
+
+===========================================================================================================================
+
+Rules:
+1. Class Name should be starts with Capital letter
+
+
+---> Object State (Initial): An Object state is when an object is created what properties it has. That particular state is called Object State.
+
+---> Object state will change through the actions(member functions) that the object is doing
