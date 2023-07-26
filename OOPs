@@ -33,3 +33,68 @@ Rules:
 ---> Object State (Initial): An Object state is when an object is created what properties it has. That particular state is called Object State.
 
 ---> Object state will change through the actions(member functions) that the object is doing
+---> Without constructor object will be created with no state
+---> With Constructor and with no arguments --> Object will be created but the initial state of all objects is same
+---> With Constructor and with arguments --> Objects will be created with different initial states.
+---> With Constructor and with arguments but the arguments are again objects of the same class --> Copy Constructor.
+---> Constructor Overloading --> CPP, supported. in Python not supported
+---> But If we write constructors in the class code then the last constructor is valid. all others are invalid
+---> Method Overloading --> CPP Supported and Python Doesn't support
+---> But If we write same methods in the class code then the last method is valid. all others are invalid
+---> Destructor ---> CPP Supported and python doesn't
+---> Memory management and Garbage Collection
+
+---> Member Operator (., ->)
+---> In CPP (.) --> Static Membership Operator
+---> In CPP (->) --> Dynamic Membership Operator --> Pointer Membership Operator --> Used mostly memory management
+---> In Python (.) ---> Membership Operator
+===========================================================================================================================
+
+Properties:
+
+    1. Class Variables -- Class Variables are shared variables for all of the objects
+    2. Instance Variables -- Object -- Instance Variables are closed properties of individual objects
+
+
+--> Parrot -- logical entity
+    Count of physical enties
+    count property ---> shared property / class variable
+
+---> Objects
+    1. parrot1 --> legs, eyes, wings, mouth --- instance properties
+    2. parrot2
+
+
+---> self is python keyword
+---> self is used as a parameter in member methods inside class
+---> self is always should be at the starting position of the function arguments
+---> If you provide self in method of a class then it is called instance method
+---> If you don't provide self in method of a class then it is called static method
+---> cls is python keyword
+---> cls is used in parameter in member methods 
+---> If you want to provide cls, then it should be first of the function
+---> If you provide cls you should not provide self
+---> If you provide cls in function arugments then it is called class method
+
+
+
+Properties:
+
+    1. Class Properties
+    2. Instance Properties
+
+Methods:
+    1. Instance methods
+    2. Static Methods
+    3. Class Methods
+
+Access Specifiers:
+    1. Public
+    2. Private
+    3. Protected
+
+
+Inheritance
+Polymorphism
+1. Static Poly Morphism --> Method Overloading
+2. Dynamic Poly Morphism --> Method Overriding
