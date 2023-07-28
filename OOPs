@@ -68,6 +68,7 @@ Properties:
 ---> self is python keyword
 ---> self is used as a parameter in member methods inside class
 ---> self is always should be at the starting position of the function arguments
+---> self is a memory location of an object
 ---> If you provide self in method of a class then it is called instance method
 ---> If you don't provide self in method of a class then it is called static method
 ---> cls is python keyword
@@ -98,3 +99,37 @@ Inheritance
 Polymorphism
 1. Static Poly Morphism --> Method Overloading
 2. Dynamic Poly Morphism --> Method Overriding
+
+
+
+ENCAPSULATION: Binding data and function --> Binding Member variables and member methods inside the class
+Object Binding ==> 
+
+
+Instance initial object state properties (Default State of an object): The properties which have been created using self in the constructor
+Next state instance properties: The properties which have been activate by calling instance methods which have their definition.
+
+Garbage Collector ==> Software program (daemon) --> Java Programming Language
+
+Garbage Collector programs should be written by developers in CPP
+
+Garbage Collector has to be written by developers in machine critical projects
+
+
+Local Scope and Global Scope
+
+
+--> When you access any property or a method then the object will look for that property or method inside its location (Local scope). If not found in local scope then it search in global scope
+
+
+ABSTRACTION ==> Hiding implementation details
+
+
+OOPS Properties:
+1. Class
+2. Object
+3. Abstraction
+4. Encapsulation
+5. Inheritance
+6. Polymorphism
+7. Access Specifiers
