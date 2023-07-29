@@ -1,0 +1,48 @@
+Inheritance --> Adopting base details and implementing new details
+
+---> UtilitySoftware  ---> can be used by many other softwares MainSoftware
+
+
+Inheritance ===> All Protected properties and All Protected member methods and public properties and public methods can be accessed by inherited class
+
+Protected properties can be accessed in same file.
+
+
+---> Base class/Parent class
+---> Child class
+
+Data Perspective --> Properties
+---> Object creation is normal in Base class
+---> object creation in child class 
+    1. Object reference will be created in memory--> address will be passed to self keyword in constructor
+    2. super().__init__() --> This will call base class constructor with self reference as a parameter --> public and protected propeties will be created in child class object's memory location
+    3. child class constructor will start executing
+
+
+Method Percpetive --> Encapuslation
+--> Inherited Object will have
+    1. Local Class Scope
+    2. Base Class Scope
+
+
+PolyMorhism ==> based on input object can be in different object states
+
+--> poly --> many
+--> morph --> shape
+
+---> Method Resolution Order (MRO)
+-----> In instance of time an object will be in only one object state --> Even the object has many scopes which are from its parent classes 
+
+--> An Object can have multiple states w.r.t to inherited classe --> PolyMorphism
+--> But an object must and should exist in only one state.
+---> TO make sure that the polymorphed object to be existed in only one state we use MRO
+
+---> MRO ---> 
+    Order of states of an object in many states
+    1. Local Scope
+    --> Multiple Inheritance
+    2. First Inherited
+    3. Second Inherited
+    4. Multilevel Inherited
+    5. Hierarchial Inheritance
+

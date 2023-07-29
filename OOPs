@@ -133,3 +133,15 @@ OOPS Properties:
 5. Inheritance
 6. Polymorphism
 7. Access Specifiers
+
+
+
+
+=======================================================================================================================
+
+class methods --> usually will use for managing shared data (class properties)
+class methods can be called using class reference (Class Name) and also can be called using object reference (object_name)
+  ->> (.) when you are calling using Class name then (.) will automatically(by default) send the class reference --> and that reference will be stored in (cls)
+  ->> (). when you are calling using object name then (.) will send the object reference --> and that will be stored in self. then it will search the class method in object's local scope. If it doesn't found any function with name in local scope of the object then it will search in the global scope ---> it will call the ---> reference will be passed and will be stored by cls in the class method.
+
+Static methods --->> usually used for functionality which doesn't have any input or any output --> only functions but no data(Class data or object data)
