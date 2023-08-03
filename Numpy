@@ -3,6 +3,24 @@
 
 1 - Dimension ==>
     a = [1,2,3] -- 1D Array
+    -- number of elements = 3
+    -- indices = (0,1,2)
+    -- a[0] = 1
+    -- a[1] = 2
 
 2 - Dimension ==>
     a = [[1,2],[3,4],[5,6]] -- 2D Array
+    -- a is a list
+    -- number of elements in the list = 3
+    -- indices = (0,1,2)
+    -- a[0] = [1,2]
+    -- a[1] = [3,4]
+    -- a[2] = [5,6]
+    -- (3*2) Matrix --> 2 Dimension
+
+    a = [[1,2,3],[3,4,5]]
+    -- number of elements = 2
+    -- indices 0,1
+    -- a[0] = [1,2,3]
+    -- a[1] = [3,4,5]
+    -- (2*3) Matrix --> 2 Dimension

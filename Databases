@@ -1,0 +1,48 @@
+Naive FileSystem Management -->
+
+1. Data Redundancy
+2. Data Inconsistency
+3. Data Secuirity
+4. Data Isolation
+5. Data Constraint or Data Integrity
+6. Data Retrival(Access) Disk read writes or inefficient
+7. Data Scaling is as easy
+
+Database Management System (DBMS)
+1. Only One storage --> Redundancy Problem
+2. Inconsistency solved because data stored at one place
+3. Data Access is more secure and we can store as encrypted
+4. Isolation --> It will be solved 
+5. Admin Rules
+6. Data Retrival --> Database engines --> Faster and scalable
+
+Data Definition
+DDL --> SQL -- UML 
+
+Data Manipulation DML --> SQL
+
+
+Database Engines
+Structured Databases or Relation Databases --> RDBMS
+1. MySQL --> csv
+2. PostgreSQL
+3. Oracle
+4. SQL Server
+
+===> Data ENgineering --> Migration Pipelines
+
+Semi Structured Definition of Data:
+1. MongoDB --> Scalability, Fastness and Analyis 
+2. Hive, Spark, Hadoop --> PySpark
+2. AWS Dynamo DB
+
+Unstructured Definition of Data:
+1. Files
+
+Database Administrtors
+Database Architects
+
+
+Working Querying or Data Manipulation
+1. Using Pandas Data manipulation
+2. Using SQL Data Manipulation
