@@ -28,3 +28,19 @@
 a = a+1
 
 a += 1
+
+1. Histogram --> Numerical Attribute -> MILES*
+    --> 1. X axis, Y axis
+    --> X-Axis is the Numerical Attribute or column (min value to maximum value)
+    --> Y Axis is the frequency of a particular range
+    --> 0-250 total range 
+    --> 0-10miles  How many members? --> Bins
+    --> 10-20miles How many members?
+    --> 0,10,20,30,40,50,60,80,90,100,110,....,250 = 25
+    --> list(range(0,250,10))
+    --> No of bins = (Max-Min)/Binwidth
+
+2. Barplot --> Categorical Attribute, Gender, START*, STOP*,
+
+
+--> 
