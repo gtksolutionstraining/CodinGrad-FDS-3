@@ -1,0 +1,12 @@
+
+Data Definition Language (DDL)
+GRANT, REVOKE, CREATE, ALTER, DROP, etc.
+
+Data Manipulation Language (DML)
+SELECT, INSERT, UPDATE, DELETE --> CRUD
+
+Keywords:
+    1. WHERE
+    2. HAVING
+    3. LIKE
+    4. BETWEEN AND,etc.
