@@ -34,3 +34,40 @@ Version Control System (VCS) --> BitBucket, GitLab
 ---> LMS  releasable project 
     ---> Main Repositiroy --> main, dev, stage, qa, prod
     ---> All developers should fork the project and develop individually and merge in the main repositor
+
+
+
+1. Created a repository in Github
+2. Cloned that repository into our local machine
+3. We copied our Project files to the repository that we have clone
+4. Project folder (Git repository) --> At the time of clone --> state 1
+5. You have changed state of the repository to state2
+6. BY adding new afiles and modifying the readme
+7. Local github repository(Project folder) has local changes
+8. git status -- commands
+    --> what you have done to your repository
+    --> Already existed file readme.. --> you have modified
+    --> Also you have added new files
+
+9. you have to add the local changes to stage --> storing -- inmtermediate --save the state
+10. -- command for staging your local changes is --> git add file1 file2 file3
+    -- git add . --> all changes
+
+10. final-fix --> Commiting changes 
+    -- git commit -m "I have added new code to the project"
+
+11. commit will happen locally
+
+12. If you want sync with GitHub Central repository
+    -- git push origin main
+
+
+--- DEVELOPMENT
+
+1. new branch creation for the repositor
+2. git branch dev
+3. git checkout dev
+4. changes to the code
+5. git add
+6. git commit 
+7. git push origin dev

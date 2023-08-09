@@ -1,0 +1,126 @@
+SQL -- Structured Query Language -->
+    -- Structured Databases (Relational Databases)
+        -- MySQL -------- SQL
+        -- PostgreSQL ---
+        -- SQL Server -- Microsoft
+        -- Oracle
+DDL Commands in SQL
+    1. Schema --> Collection of Databases
+    2. Database --> Collection of Tables
+    3. Table --> Collection of rows and columns
+
+    Company Database Design:
+
+    1. Schema
+        -- HR
+        -- FINANCE
+        -- SOFTWARE
+        -- HARDWARE
+
+    2. SOFTWARE Schema
+        -- DEVELOPERS Database
+        -- ADMINS Database
+        -- MANAGERS Database
+        -- BA Database
+
+    3. DEVELOPERS Database
+        -- EmployeeInfo table
+        -- PersonalInfo table
+        -- PerformanceInfo table
+        -- SalaryInfo table
+        -- PresenceInfo table
+
+Ontology of Database
+
+SQL Case insenstive
+SQL Commands are case insenstive but the names of schema, database, table, attributes(Column names) are case sensitive
+
+-- Case Insensitive
+    -- Tharun == THARUN == ThaRUN == THaRuN
+-- Case Sensitive
+    -- Tharun != THARUN
+
+--- USERS for MYSQL or Postgresql
+    -- tharun, pavan
+
+MYSQL DATABASE -- DISK -- server
+MYSQL ENGINE --
+
+Every database will have a root,mysql user by default
+
+
+root is connecting to mysql
+
+MYSQL ODBC Driver -- Software module
+
+mysql --host localhost --user root --password "12345" -- connection string
+
+root connected to database
+
+1. CREATE GROUP Admins;
+2. CREATE GROUP Developers;
+
+1. CREATE USER tharunkumar WITH PASSWORD "12345" IN GROUP Developers;
+2. CREATE USER prakash WITH PASSWORD "12345" IN GROUP Admins;
+
+tharunkumar connected database
+
+1. CREATE SCHEMA SOFTWARE; or create schema software; ## Access should be given to who created
+2. GRANT * ON SOFTWARE.* TO prakash; --> first * all DML actions second * all databases of software schema
+3. USE SOFTWARE; --> going into software schema. After executing this command whatever you create will be created under SOFTWARE schema
+4. CREATE DATABASE DEVELOPERS;
+5. CREATE DATABASE SOFTWARE.DEVELOPERS;
+6. GRANT SELECT,INSERT ON DEVELOPERS TO pavan;
+7. CREATE TABLE EmployeeInfo(
+    employee_id varchar, # varchar is string -- variable character
+    #employee_id char(64) # upto 255 characters only u have to give
+    employee_name varchar,
+    employee_salary float,
+    employee_phone bigint,
+    employee_type char(64)
+)
+8. DROP TABLE EmployeeInfo;
+9. DROP TABLE SOFTWARE.DEVELOPERS.EmployeeInfo;
+10. DROP DATABASE DEVELOPERS;
+11. DROP SCHEMA DEVELOPERS;
+12. ALTER DATABASE DEVELOPERS REVOKE * ON SOFTWARE.DEVELOPERS FROM prakash;
+
+DML
+1. INSERT INTO EmployeeInfo VALUES ('123456F','Tharun Kumar','000000','900000000'); -- Creating Data
+
+2. SELECT * FROM EmployeeInfo --> Will give all columns of table Employeeinfo
+3. SELECT employee_id, employee_salary FROM EmployeeInfo; -- Reading Data
+
+4. DELETE FROM EmployeeInfo WHERE employee_id = '12345F'; -- Deleting Data
+5. UPDATE EmployeeInfo SET employee_name = 'Goka Tharun Kumar' WHERE employee_id = '123456F' -- Updating the data
+
+
+CRUD Operations --> Create, Read, Update, Delete
+
+API Development  --> POST -- Create
+                 --> GET -- Read
+                 --> PUT -- Update
+                 --> DELETE -- Delete
+
+--- SELECT ---
+1. SELECT * FROM EmployeeInfo WHERE employee_name LIKE 's%'; - Regular expression
+2. SELECT * FROM EmployeeInfo WHERE employee_name LIKE '__T%'; -- Extract all employees whos names has 3rd letter as T
+3. SELECT * FROM EmployeeInfo WHERE employee_name LIKE '%Rao'; -- Extract all employees whos names ended with Rao
+4. SELECT * FROM EmployeeInfo WHERE employee_salary BETWEEN 10000 AND 25000; -- Extract all employees whos salary falls between 10k and 25k;
+5. SELECT * FROM EmployeeInfo WHERE employee_id = "12345F";
+6. SELECT * FROM EmployeeInfo GROUP BY employee_type; -- It will group all employees based on employee type night shift or morning shift
+
+
+Table 1 & Table 2
+
+Table 1 --> primary Key --> EmployeeDetails --> will store each employee information along with dept_id
+Table 2 --> primary Key --> EmployeeDepartmemt --> dept_id, all department information
+
+q1: Extract department of tharun
+
+
+SELECT e.employee_id, e.employee_name, s.depart_name
+FROM EmployeeDetails as e NATURAL JOIN EmployeeDepartment as s ON e.dept_id
+WHERE e.employee_name = 'Tharun';
+
+
